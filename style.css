@@ -2,7 +2,7 @@ body {
   background-color: black;
   color: white;
 }
-h1 {
+.title {
   color: #991f1f;
   text-align: center;
   font-size: 40px;
@@ -14,43 +14,45 @@ p {
   color: red;
   text-align: justify;
 }
+#normal-link {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  height: auto;
+  width: auto;
+  position: fixed;
+  bottom: 13%;
+  left: 1%;
+  font-size: 18px;
+}
 #normal-link:hover {
   color: blue;
-  font-size: 16.4px;
+  color: #8b8000;
+  background-color: indigo;
 }
 #normal-link:active {
   color: blue;
-}
-#normal-link:link {
-  background-color: lightgray;
-  font-weight: bold;
-  height: 60px;
-  width: 60px;
 }
 
 img {
   float: left;
 }
 .wishlist {
-  font-family: ninja;
+  text-decoration: none;
   font-family: monospace;
   text-align: center;
   background-color: red;
+  color: black;
   padding: 10px 10px 10px 10px;
-  margin: 20px 20px 20px 20px;
   display: inline-block;
   text-align: 50px 0px 0px 300px;
+  position: absolute;
+  bottom: 7%;
+  left: 1%;
 }
-@font-face {
-  font-family: ninja;
-  src: url();
-}
-@font-face {
-  font-family: samurai;
-  src: url();
-}
-#normal-link {
-  position: relative;
-  top: 530px;
-  right: 340px;
+
+.wishlist:hover {
+  background-color: indigo;
+  color: #8b8000;
 }
