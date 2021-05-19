@@ -1,3 +1,20 @@
-* {
+body {
+  background-color: red;
+}
+header {
   background-color: black;
+}
+.title {
+  font-size: 80px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #8b8000;
+}
+.wish {
+  font-size: x-large;
+  font-family: monospace;
+}
+.wishlink {
+  color: black;
+  text-decoration: none;
 }
