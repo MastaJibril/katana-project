@@ -3,6 +3,9 @@ body {
 }
 header {
   background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .title {
   font-size: 80px;

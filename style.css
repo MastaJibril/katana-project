@@ -2,39 +2,72 @@ body {
   background-color: black;
   color: white;
 }
+header {
+  background-color: #8b8000;
+  background-size: 30px 100px 30px 2000px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border: 1px solid #8b8000;
+}
 .title {
   color: #991f1f;
   text-align: center;
   font-size: 40px;
-  background-color: #8b8000;
-  background-size: 30px 100px 30px 2000px;
+}
+footer {
+  position: relative;
+  width: 100%;
+  color: #991f1f;
+  background-color: #cfbe00;
+  font-weight: bold;
+  border: 1px solid #cfbe00;
+  display: inline-block;
+  padding: 5px;
+}
+.firstFoot {
+  position: relative;
+  padding-left: 10px;
+}
+.secoundFoot {
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+  float: right;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.blank {
+  color: #000;
 }
 p {
   font-size: 25px;
   color: red;
   text-align: justify;
 }
-#normal-link {
+.normal-link {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
+  color: #991f1f;
+}
+.normal-link:hover {
+  color: #cfbe00;
+  background-color: #991f1f;
+}
+#buy-link {
   color: red;
   height: auto;
   width: auto;
-  position: fixed;
+  position: absolute;
   bottom: 13%;
   left: 1%;
   font-size: 18px;
 }
-#normal-link:hover {
-  color: blue;
+#buy-link:hover {
   color: #8b8000;
   background-color: indigo;
 }
-#normal-link:active {
-  color: blue;
-}
-
 img {
   float: left;
 }
