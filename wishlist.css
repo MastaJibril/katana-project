@@ -1,17 +1,45 @@
+* {
+  text-decoration: none;
+}
 body {
-  background-color: red;
+  background-color: black;
 }
 header {
-  background-color: black;
+  background-color: #8b8000;
+  background-size: 30px 100px 30px 2000px;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
+  border: 1px solid #8b8000;
+}
+.title-link {
+  font-weight: bold;
 }
 .title {
-  font-size: 80px;
+  color: #991f1f;
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: #8b8000;
+  font-size: 40px;
+}
+footer {
+  position: relative;
+  width: 100%;
+  color: #991f1f;
+  background-color: #cfbe00;
+  font-weight: bold;
+  border: 1px solid #cfbe00;
+  display: inline-block;
+  padding: 5px;
+}
+.firstFoot {
+  position: relative;
+  padding-left: 10px;
+}
+.secoundFoot {
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+  float: right;
+  padding-left: 10px;
 }
 .wish {
   font-size: x-large;
@@ -19,5 +47,4 @@ header {
 }
 .wishlink {
   color: black;
-  text-decoration: none;
 }
